@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Liquor Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Liquor Store</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Age Verification Modal -->
+    <div class="age-verification" id="age-verification">
+        <div class="modal-content">
+            <p>You must be 21 or older to enter this site.</p>
+            <button onclick="verifyAge()">I am 21 or older</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <section class="intro">
+            <h2>Welcome to Our Liquor Store!</h2>
+            <p>Explore a wide variety of premium liquors, wines, and beers. All of our products are of the highest quality and available for quick delivery.</p>
+        </section>
+
+        <!-- Product Showcase -->
+        <section class="products">
+            <h2>Featured Products</h2>
+            <div class="product-list">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200x250" alt="Product Image">
+                    <h3>Whiskey</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200x250" alt="Product Image">
+                    <h3>Vodka</h3>
+                    <p>$25.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200x250" alt="Product Image">
+                    <h3>Wine</h3>
+                    <p>$40.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200x250" alt="Product Image">
+                    <h3>Beer</h3>
+                    <p>$15.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Liquor Store. All rights reserved.</p>
+        <p>Disclaimer: You must be 21 years or older to purchase alcohol.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
